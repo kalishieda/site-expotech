@@ -49,6 +49,10 @@ footer {
   background-color: white;
 }
 
+#svg {
+  color: white;
+}
+
 body {
   --heading-font: "Questrial", serif;
   --heading-font-weight: 400;
