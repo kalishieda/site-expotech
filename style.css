@@ -37,7 +37,7 @@ CSS STRUCTURE:
 }
 
 #fonte-branca {
-  color: white;
+  color: rgb(255, 252, 252);
 }
 
 nav {
@@ -56,7 +56,7 @@ footer {
 body {
   --heading-font: "Questrial", serif;
   --heading-font-weight: 400;
-  --heading-color: #ffffff;
+  --heading-color: #151313;
   --heading-line-height: 1.24;
 
   --swiper-theme-color: #8C907E;
@@ -94,10 +94,13 @@ body {
   letter-spacing: 0.03rem;
 }
 
-body {
-  background-color: #000;
+.homepage {
+  background-color: #0e0d0d;
 }
 
+#fonte-preta {
+  color: #171717;
+}
 /* Para garantir que todos os elementos tenham a cor preta, mesmo os que não possuem um seletor específico: */
 * {
   color: inherit; /* Herda a cor do elemento pai */
